@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Log files
+logs/
+*.log
+
+# Database files
+*.sqlite3
+db.sqlite3
+instance/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy cache
+.mypy_cache/
+
+# VS Code settings
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+
+# FastAPI-specific
+.env.example
+alembic/  # If using Alembic (you are not, but keeping it in case you change)
